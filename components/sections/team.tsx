@@ -2,38 +2,25 @@ const teamMembers = [
   {
     name: "Nematov Zokirjon",
     role: "Leader",
-    title: "Loyiha rahbari",
+    title: "Loyiha yetakchisi",
     initials: "ZN",
     color: "from-primary to-accent",
   },
   {
-    name: "Nematov Zokirjon (Hozircha)",
-    role: "Menejer",
-    title: "Jarayonlarni boshqarish",
-    initials: "ZN",
+    name: "Abduhakimov Zufarbek",
+    role: "dasturchi",
+    title: "Jarayonlarni boshqarish, kiber hujumni oldini olish",
+    initials: "AZ",
     color: "from-accent to-primary",
   },
   {
-    name: "Nematov Zokirjon (Hozircha)",
-    role: "Moliyachi",
-    title: "Xarajat va daromad boshqaruvi",
-    initials: "ZN",
+    name: "Berdiyev Sarvar",
+    role: "No Code dasturchi",
+    title: "No code saytlar tayyorlash",
+    initials: "BS",
     color: "from-primary via-accent to-primary",
   },
-  {
-    name: "Nematov Zokirjon (Hozircha)",
-    role: "Marketing",
-    title: "Reklama va o'sish strategiyasi",
-    initials: "ZN",
-    color: "from-accent via-primary to-accent",
-  },
-  {
-    name: "Nematov Zokirjon (Hozircha)",
-    role: "UI/UX Dizayner",
-    title: "Dizayn yaratish",
-    initials: "ZN",
-    color: "from-primary to-accent",
-  },
+ 
 ]
 
 export default function TeamSection() {

@@ -55,20 +55,24 @@ export default function HeroSection() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center lg:justify-start">
-              <button className="group relative px-8 py-4 rounded-xl bg-linear-to-r from-blue-600 to-purple-600 text-white font-semibold shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 hover:scale-105">
+               <a href="https://portfoliogoose.netlify.app/" target="_blank">
+              <button className="group relative cursor-pointer px-8 py-4 rounded-xl bg-linear-to-r from-blue-600 to-purple-600 text-white font-semibold shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 hover:scale-105">
                 <span className="relative z-10 flex items-center justify-center gap-2">
-                  <a href="https://portfoliogoose.netlify.app/" target="_blank">Sayt buyurtma berish</a>
+                 Sayt buyurtma berish
                   
                   <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                 </span>
               </button>
-              <button className="px-8 py-4 rounded-xl border-2 border-white/30 text-white font-semibold hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm">
+              </a>
               <a href="https://portfoliogoose.netlify.app/" target="_blank">
+              <button className=" px-8 cursor-pointer py-4 rounded-xl border-2 border-white/30 text-white font-semibold hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm">
+              
                 Namunalarni ko'rish
-                </a>
+               
               </button>
+               </a>
             </div>
 
             {/* Social proof */}

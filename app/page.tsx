@@ -10,7 +10,7 @@ import BudgetSection from "@/components/sections/budget"
 import MarketSection from "@/components/sections/market"
 import MarketingSection from "@/components/sections/marketing"
 import ProcessSection from "@/components/sections/process"
-import LaborSection from "@/components/sections/labor"
+// import LaborSection from "@/components/sections/labor"
 import FinanceSection from "@/components/sections/finance"
 import ConclusionSection from "@/components/sections/conclusion"
 
@@ -63,9 +63,9 @@ export default function Home() {
           <ProcessSection />
         </section>
 
-        <section id="labor" className="min-h-screen w-full py-12 md:py-20">
+        {/* <section id="labor" className="min-h-screen w-full py-12 md:py-20">
           <LaborSection />
-        </section>
+        </section> */}
 
         <section id="finance" className="min-h-screen w-full py-12 md:py-20">
           <FinanceSection />
